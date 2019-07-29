@@ -1,144 +1,144 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Acme', sans-serif;
-	-moz-box-sizing: border-box;
- 	-webkit-box-sizing: border-box;
- 	--backGround: #EAEACA;
- 	--coloridoFundoPadrao: #AAE917;
- 	--coloridoFundoEscuro: #0A1503;
- 	--coloridoFundoClaro: #FFFFFF;
+	margin                       : 0;
+	padding                      : 0;
+	box-sizing                   : border-box;
+	font-family                  : 'Acme', sans-serif;
+	-moz-box-sizing              : border-box;
+	-webkit-box-sizing           : border-box;
+	--backGround                 : #EAEACA;
+	--coloridoFundoPadrao        : #AAE917;
+	--coloridoFundoEscuro        : #0A1503;
+	--coloridoFundoClaro         : #FFFFFF;
 }
 
 body {
-	background-color: var(--backGround);
-	padding: 10px;
-	color: var(--coloridoFundoEscuro);
+	background-color             : var(--backGround);
+	padding                      : 10px;
+	color                        : var(--coloridoFundoEscuro);
 }
 /*Links*/
 a {
-	text-decoration: none;
+	text-decoration              : none;
 }
 
 /*Botões*/
 .botoes {
-	width: 100%;
-	margin: auto;
-	overflow: hidden;
+	width                        : 100%;
+	margin                       : auto;
+	overflow                     : hidden;
 }
 
 button {
-	background-color: var(--coloridoFundoClaro);
- 	border: none;
- 	font-size: 40px;
- 	cursor: pointer;
- 	width: 25%;
- 	padding: 5px;
- 	float: left;
+	background-color             : var(--coloridoFundoClaro);
+	border                       : none;
+	font-size                    : 40px;
+	cursor                       : pointer;
+	width                        : 25%;
+	padding                      : 5px;
+	float                        : left;
 }
 
-button:hover {
-	background-color: var(--coloridoFundoPadrao);
-	color: var(--coloridoFundoClaro);
-	text-decoration: underline;
-  	text-shadow: 1px 1px 5px #092FC6;
+button                       : hover {
+	background-color             : var(--coloridoFundoPadrao);
+	color                        : var(--coloridoFundoClaro);
+	text-decoration              : underline;
+	text-shadow                  : 1px 1px 5px #092FC6;
 }
 
 /*Cabeçalho*/
 .cabecalho {
-	text-align: center;
-	background-color: var(--coloridoFundoPadrao);
-	padding: 10px;
+	text-align                   : center;
+	background-color             : var(--coloridoFundoPadrao);
+	padding                      : 10px;
 }
 .cabecalho h1 {
-	font-size: 60px;
-	font-family: 'Indie Flower', cursive;
+	font-size                    : 60px;
+	font-family                  : 'Indie Flower', cursive;
 }
 
 .cabecalho a {
-	color: var(--coloridoFundoEscuro);
+	color                        : var(--coloridoFundoEscuro);
 }
 
 /*Barra de Navegação*/
 .barra {
-	background-color: var(--coloridoFundoEscuro);
-	color: var(--coloridoFundoClaro);
-	overflow: hidden;
+	background-color             : var(--coloridoFundoEscuro);
+	color                        : var(--coloridoFundoClaro);
+	overflow                     : hidden;
 }
 
 .barra a {
- 	color: var(--coloridoFundoClaro);
- 	font-size: 16px;
- 	padding: 10px;
- 	cursor: pointer;
- 	float: left;
+	color                        : var(--coloridoFundoClaro);
+	font-size                    : 16px;
+	padding                      : 10px;
+	cursor                       : pointer;
+	float                        : left;
 }
 
-.barra a:hover {
-	background-color: var(--coloridoFundoClaro);
-	color: var(--coloridoFundoEscuro);
-	text-decoration: underline;
+.barra a                     : hover {
+	background-color             : var(--coloridoFundoClaro);
+	color                        : var(--coloridoFundoEscuro);
+	text-decoration              : underline;
 }
 
 .barra img {
-	width: 10%;
+	width                        : 10%;
 }
 
 /*Colunas de conteúdo*/
 .colunaEsquerda {
-	float: left;
-  	width: 80%;
+	float                        : left;
+	width                        : 80%;
 }
 
 .colunaDireita {
-	float: left;
-  	width: 20%;
-  	padding-left: 20px;
+	float                        : left;
+	width                        : 20%;
+	padding-left                 : 20px;
 }
 
 .bloco {
-	background-color: var(--coloridoFundoClaro);
-	padding: 10px;
-	margin-top: 20px;
-	overflow: hidden;
+	background-color             : var(--coloridoFundoClaro);
+	padding                      : 10px;
+	margin-top                   : 20px;
+	overflow                     : hidden;
 }
 
 /*Rodapé*/
 .rodape {
-	text-align: center;
-	background-color: var(--coloridoFundoPadrao);
-	padding: 20px;
-  	margin-top: 20px;
-  	overflow: hidden;
+	text-align                   : center;
+	background-color             : var(--coloridoFundoPadrao);
+	padding                      : 20px;
+	margin-top                   : 20px;
+	overflow                     : hidden;
 }
 
 .rodape img {
-	width: 100px;
-	height:100px;
+	width                        : 100px;
+	height                       : 100px;
 }
 
 /*Clearfix*/
-.corpo:after {
-  content: "";
-  display: table;
-  clear: both;
+.corpo                       : after {
+	content                      : "";
+	display                      : table;
+	clear                        : both;
 }
 
-@media screen and (max-width: 800px) {
-  .colunaEsquerda, .colunaDireita {   
-    width: 100%;
-    padding: 0;
-  }
+@media screen and (max-width : 800px) {
+	.colunaEsquerda, .colunaDireita {   
+		width                        : 100%;
+		padding                      : 0;
+	}
 
-  .rodape img {
-  	width: 100%;
-  }
+	.rodape img {
+		width                        : 100%;
+	}
 }
 
-@media screen and (max-width: 400px) {
-  .barra a {
-    width: 100%;
-    text-align: center;	
-  }
+@media screen and (max-width : 400px) {
+	.barra a {
+		width                        : 100%;
+		text-align                   : center;	
+	}
 }
