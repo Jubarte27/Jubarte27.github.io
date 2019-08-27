@@ -12,11 +12,11 @@
    preserveAspectRatio="xMidYMid meet"
    zoomAndPan="magnify"
    id="Test File"
-   viewBox="-21 -21 40.15 40.15"
-   width="764.7619"
-   height="764.7619"
+   viewBox="-21 -21 40.000001 40.000001"
+   width="761.90479"
+   height="761.90479"
    sodipodi:docname="Smiley.svg"
-   inkscape:version="0.92.4 (33fec40, 2019-01-16)">
+   inkscape:version="0.92.4 (unknown)">
   <metadata
      id="metadata34">
     <rdf:RDF>
@@ -38,12 +38,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="709"
+     inkscape:window-height="703"
      id="namedview32"
      showgrid="false"
      inkscape:zoom="0.295"
-     inkscape:cx="228.87759"
-     inkscape:cy="432.42252"
+     inkscape:cx="627.11458"
+     inkscape:cy="623.84463"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -74,7 +74,7 @@
        id="grad"
        cx="0"
        cy="0"
-       r="20.075"
+       r="20.075001"
        fx="0"
        fy="0"
        gradientUnits="userSpaceOnUse"
@@ -99,19 +99,13 @@
   </defs>
   <circle
      r="20"
-     id="circle18"
-     cx="-0.92500001"
-     cy="-0.92500001"
-     style="fill:url(#grad);stroke:#000000;stroke-width:0.15000001" />
-  <circle
-     r="20"
      id="circle20"
-     cx="-0.92500001"
-     cy="-0.92500001"
+     cx="-1"
+     cy="-1"
      style="fill:#fdca4b;fill-opacity:1" />
   <g
      id="right"
-     transform="translate(-0.925,-0.925)">
+     transform="translate(-0.99999999,-0.99999999)">
     <ellipse
        rx="2.5"
        ry="4"
@@ -127,14 +121,14 @@
   </g>
   <use
      xlink:href="#right"
-     transform="matrix(-1,0,0,1,-1.85,0)"
+     transform="matrix(-1,0,0,1,-2,0)"
      id="use27"
      x="0"
      y="0"
      width="100%"
      height="100%" />
   <path
-     d="m -12.925,4.075 a 13.5,13.5 0 0 0 24,0 13,13 0 0 1 -24,0"
+     d="M -13,4 A 13.5,13.5 0 0 0 11,4 13,13 0 0 1 -13,4"
      id="path29"
      inkscape:connector-curvature="0"
      style="fill:none;stroke:#000000;stroke-width:0.75" />
