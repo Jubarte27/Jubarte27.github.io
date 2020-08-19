@@ -1,57 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estatística</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="estatistica.js"></script>
-    <script type="text/javascript" src="classes.js"></script>
-    <script type="text/javascript" src="google-chart.js"></script>
-    <style type="text/css">
-        * {
-            font-family: 'Roboto', sans-serif;
-        }
-        .container {
-            text-align: left;
-            display: flex;
-            flex-direction: row;
-            justify-content:center;
-            align-items:center;
-        }
-        .container > div {
-            font-size: 14px;
-            line-height: 1.5em;
-            margin: 10px;
-        }
-    </style>
+	<title>Machado Matheus</title>
+	<link rel="stylesheet" type="text/css" href="globalLayout.css">
+	<link href="https://fonts.googleapis.com/css?family=Acme|Indie+Flower&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
 </head>
-<body>
-    <div class="container">
-        <div>
-            <input type="file" id="arquivo-csv" 
-            style="overflow-x: scroll;"
-            onchange="carregarArquivo(event.target.files[0])"
-            accept=".csv">
-            <label for="agrupar">Agrupar</label>
-            <input id="agrupar" type="checkbox">
-            <label for="ticks">Ticks</label>
-            <input id="ticks" type="number" value="10">
-            <select id="muda-tipo"></select>
-            <select id="tipo-medicao"></select>
-        </div>
-        <div>
-            Média: <span id="media"></span></br>
-            Moda: <span id="moda"></span></br>
-            Mediana: <span id="mediana"></span>
-        </div>
-        <div>
-            DesvioPadrão: <span id="desvio"></span></br>
-            Variância: <span id="variancia"></span>
-        </div>
-    </div>
-    <div id="demo"></div>
+<body> 
+	<div class="cabecalho">
+		<a href="https://MachadoMatheus.github.io"><h1>MachadoMatheus.github.io</h1></a>
+	</div>
+
+	<div class="barra">
+		<a href="https://github.com/MachadoMatheus" target="blank">
+			<img src="https://avatars0.githubusercontent.com/u/49786177?s=400&v=4">
+		Github Matheus</a>
+		<a href="https://github.com/NataliaGalaxia" target="blank">
+			<img src="https://avatars3.githubusercontent.com/u/52761328?s=400&v=4">
+		Github Natália</a>
+	</div>
+
+	<div class="corpo">
+
+		<div class="colunaEsquerda">
+			<div class="bloco">
+				<a href="Imagens" style="float: left;"> 
+					<img src="Vetores/Achados/simboloImagens.svg" width="200px">
+				</a>
+				<a href="Vetores" style="float: right;">
+					<img src="Vetores/Achados/simboloVetores.svg" width="200px">
+				</a>
+			</div>
+		</div>
+		<div class="colunaDireita">
+			<div class="bloco">
+				<a href="https://ead06.proj.ufsm.br" target="blank">
+					<img src="Vetores/Achados/moodle.svg" width="200px">
+				</a>
+				<a href="https://portal.ufsm.br/aluno/index.html" target="blank" style="text-decoration: none; color: #0A1503;">
+					<img src="Vetores/Achados/logoUFSM.svg" width="100px">
+				</a>
+				<a href="http://lattes.cnpq.br/9713797865310473" target="blank" style="text-decoration: none; color: #0A1503;"> 
+					<img src="Vetores/Achados/cnpq.svg" width="100px">
+				</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="rodape">
+		<img src="Vetores/Achados/logoUFSM.svg" style="float: left; width: 20%">
+
+		<div style="float: left; width: 60%">
+			Feito por: Matheus Machado<br>
+			Inspirado em: Natália Pires<br>
+
+			Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>,
+			<a href="https://www.freepik.com/" title="Freepik">Freepik</a>
+			from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+			is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">
+			CC 3.0 BY</a>
+		</div>
+		<img src="Vetores/Achados/logoCTISM.svg" style="float: left; width: 20%">
+	</div>
+
 </body>
 </html>
