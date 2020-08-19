@@ -5,36 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0alpha (9dee831, 2019-01-15)"
-   sodipodi:docname="retirar.svg"
-   width="105.36mm"
-   height="105.36025mm"
-   viewBox="0 0 105.36 105.36025"
+   id="svg8"
    version="1.1"
-   id="svg8">
-  <sodipodi:namedview
-     inkscape:current-layer="svg8"
-     inkscape:window-maximized="1"
-     inkscape:window-y="27"
-     inkscape:window-x="67"
-     inkscape:cy="199.10599"
-     inkscape:cx="199.10551"
-     inkscape:zoom="1.7553465"
-     showgrid="false"
-     id="namedview3241"
-     inkscape:window-height="995"
-     inkscape:window-width="1613"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
-     inkscape:document-rotation="0"
-     bordercolor="#666666"
-     pagecolor="#ffffff" />
+   viewBox="0 0 105.36 105.36025"
+   height="105.36025mm"
+   width="105.36mm">
   <defs
      id="defs2" />
   <metadata
@@ -45,31 +20,26 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <rect
-     style="opacity:1;stop-opacity:1;fill:#364678;fill-opacity:1"
-     fill="#0ff"
-     fill-opacity=".97753"
-     id="rect34"
-     rx="19.844"
-     height="105.36"
-     width="105.36"
+     x="3.161621e-07"
      y="-4.1284179e-07"
-     x="3.161621e-07" />
-  <path
-     id="path96"
-     d="M 88.265871,45.240925 52.67993,52.679748 17.112075,60.138722 62.333604,105.36025 h 23.182564 c 10.993575,0 19.843752,-8.850689 19.843752,-19.844264 V 62.334973 Z"
-     style="opacity:1;fill:#000000;fill-opacity:0.117647;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stop-opacity:1"
-     inkscape:connector-curvature="0" />
+     width="105.36"
+     height="105.36"
+     rx="19.844"
+     id="rect34"
+     fill-opacity=".97753"
+     fill="#0ff"
+     style="opacity:1;stop-opacity:1;fill:#364678;fill-opacity:1" />
   <rect
-     ry="10.583075"
-     y="42.096924"
-     x="14.051994"
-     height="21.166149"
-     width="77.256012"
+     style="opacity:1;fill:#ffffff;fill-rule:evenodd;stroke-width:0.224724;stop-opacity:1"
      id="rect36"
-     style="opacity:1;fill:#ffffff;fill-rule:evenodd;stroke-width:0.224724;stop-opacity:1" />
+     width="77.256012"
+     height="21.166149"
+     x="14.051994"
+     y="42.096924"
+     ry="10.583075" />
 </svg>
