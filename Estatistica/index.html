@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatística</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="estatistica.js"></script>
+    <script type="text/javascript" src="classes.js"></script>
+    <script type="text/javascript" src="google-chart.js"></script>
+    <style type="text/css">
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+        .container {
+            text-align: left;
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items:center;
+        }
+        .container > div {
+            font-size: 14px;
+            line-height: 1.5em;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <input type="file" id="arquivo-csv" 
+            style="overflow-x: scroll;"
+            onchange="carregarArquivo(event.target.files[0])"
+            accept=".csv">
+            <label for="agrupar">Agrupar</label>
+            <input id="agrupar" type="checkbox">
+            <label for="ticks">Ticks</label>
+            <input id="ticks" type="number" value="10">
+            <select id="muda-tipo"></select>
+            <select id="tipo-medicao"></select>
+        </div>
+        <div>
+            Média: <span id="media"></span></br>
+            Moda: <span id="moda"></span></br>
+            Mediana: <span id="mediana"></span>
+        </div>
+        <div>
+            DesvioPadrão: <span id="desvio"></span></br>
+            Variância: <span id="variancia"></span>
+        </div>
+    </div>
+    <div id="demo"></div>
+</body>
+</html>
